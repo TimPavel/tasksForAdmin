@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b136e81-9c7a-41be-b7fa-8d33a9391d1e" name="Default Changelist" comment="" />
+    <list default="true" id="9b136e81-9c7a-41be-b7fa-8d33a9391d1e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/application/controllers/Controller_User.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Controller_User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/result.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/result.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/task_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/task_view.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +47,20 @@
     <splitter split-orientation="horizontal" split-proportion="0.5421399">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/application/core/Route.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+                <state relative-caret-position="465">
+                  <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/application/core/View.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="65" />
                 </state>
               </provider>
             </entry>
@@ -54,8 +68,11 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/application/views/login.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                <state relative-caret-position="480">
+                  <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+                  <folding>
+                    <element signature="n#style#0;n#small#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -64,25 +81,16 @@
             <entry file="file://$PROJECT_DIR$/application/views/registration.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
-                  <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+                  <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tasks.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="352">
-                  <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/application/views/task_view.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+                <state relative-caret-position="240">
+                  <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
                 </state>
               </provider>
             </entry>
@@ -91,7 +99,7 @@
             <entry file="file://$PROJECT_DIR$/application/views/template_view.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="210">
-                  <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+                  <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -99,8 +107,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/application/controllers/Controller_User.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="652">
-                  <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+                <state relative-caret-position="536">
+                  <caret line="47" column="80" selection-start-line="47" selection-start-column="80" selection-end-line="47" selection-end-column="80" />
                 </state>
               </provider>
             </entry>
@@ -108,8 +116,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/application/views/result.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+                <state relative-caret-position="75">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
                 </state>
               </provider>
             </entry>
@@ -118,7 +126,7 @@
             <entry file="file://$PROJECT_DIR$/application/models/Model_User.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="345">
-                  <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+                  <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -131,7 +139,7 @@
             <entry file="file://$PROJECT_DIR$/js/script.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="412">
-                  <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+                  <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -149,7 +157,7 @@
             <entry file="file://$PROJECT_DIR$/application/components/Db.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="240">
-                  <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+                  <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -167,7 +175,7 @@
             <entry file="file://$PROJECT_DIR$/application/models/Model_Task.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="480">
-                  <caret line="32" column="69" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="69" />
+                  <caret line="32" column="69" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="69" />
                 </state>
               </provider>
             </entry>
@@ -217,11 +225,11 @@
         <option value="$PROJECT_DIR$/application/views/registration.php" />
         <option value="$PROJECT_DIR$/tasks.php" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/application/views/login.php" />
-        <option value="$PROJECT_DIR$/application/views/result.php" />
-        <option value="$PROJECT_DIR$/application/views/task_view.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Controller_User.php" />
         <option value="$PROJECT_DIR$/application/models/Model_User.php" />
+        <option value="$PROJECT_DIR$/application/views/result.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Controller_User.php" />
+        <option value="$PROJECT_DIR$/application/views/login.php" />
+        <option value="$PROJECT_DIR$/application/views/task_view.php" />
       </list>
     </option>
   </component>
@@ -244,6 +252,17 @@
             <path>
               <item name="taskForJob" type="b2602c69:ProjectViewProjectNode" />
               <item name="taskForJob" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taskForJob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taskForJob" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taskForJob" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taskForJob" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -295,12 +314,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560016849784</updated>
       <workItem from="1560016853176" duration="37612000" />
-      <workItem from="1560278706982" duration="34642000" />
+      <workItem from="1560278706982" duration="37013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72254000" />
+    <option name="totallyTimeSpent" value="74625000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,7 +475,7 @@
     <entry file="file://$PROJECT_DIR$/application/components/Db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -464,13 +483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -488,17 +500,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -512,63 +517,80 @@
     <entry file="file://$PROJECT_DIR$/application/models/Model_Task.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="32" column="69" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Controller_User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+          <caret line="32" column="69" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="69" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Model_User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/task_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/template_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/Route.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="465">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Controller_User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="47" column="80" selection-start-line="47" selection-start-column="80" selection-end-line="47" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#small#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/task_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,10 @@
 <?php
 
-session_start();
+if(session_id() == '') {
+    session_start();
+}
+
+
 
 if (isset($_SESSION['login'])) header('Location: /User/result');
 ?>
@@ -11,10 +15,16 @@ if (isset($_SESSION['login'])) header('Location: /User/result');
 <a href="/User/registration">Регистрация</a>
 <a href="/Task">К задачам</a>
 
+
+
 <form action="/User/login" method="post">
+
+
     <p>
+        <?php if(isset($data)) echo  "<small style='color: red'>$data</small><br>" ?>
         <label for="login">Login</label>
         <input id="login" type="text" name="login">
+
     </p>
 
     <p>
