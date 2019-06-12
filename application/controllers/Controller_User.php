@@ -37,16 +37,15 @@ class Controller_User extends Controller
         $userLogin = $_POST['login'];
         $userPassword = $_POST['password'];
         $isRegisteredUser =  $this->user->getUser($userLogin);
-//        echo '<pre>';
-//        print_r($isRegisteredUser['password']);
-//        echo '<pre>';
-//        exit;
 
         if ($isRegisteredUser['password'] == $userPassword) {
             $_SESSION['login'] = $userLogin;
             return $this->view->generate('result.php', 'template_view.php');
         } else {
-            return $this->view->generate('result.php', 'template_view.php');
+
+            $data = 'Неверный логин и/или пароль';
+
+            return $this->view->generate('login.php', 'template_view.php', $data);
         }
 
     }

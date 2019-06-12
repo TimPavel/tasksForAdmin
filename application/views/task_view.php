@@ -10,10 +10,11 @@ session_start();
 <h1>Tasks</h1>
 
 
-<h3>Hello <?= $_SESSION['login'] ?></h3>
+<?php  if (isset($_SESSION['login'])) echo "<h3>Hello {$_SESSION['login']} </h3>"?>
 
 
-<?php if ($_SESSION['login'] != 'Admin') : ?>
+<?php if (isset($_SESSION['login']) && $_SESSION['login'] != 'Admin') : ?>
+
 <form>
     <fieldset>
         <legend>Создание задачи</legend>
@@ -32,7 +33,7 @@ session_start();
         <div id="task<?= $task['id'] ?>" style="<?php if($task['completed'] == 1) echo 'background-color: green'?>" >
             <h3>Наименование задачи: <?= $task['name']?></h3>
             <p>Описание задачи: <?= $task['description']?></p>
-            <?php if($_SESSION['login'] == 'Admin' && $task['completed'] == 0) : ?>
+            <?php if(isset($_SESSION['login']) && $_SESSION['login'] == 'Admin' && $task['completed'] == 0) : ?>
                 <label for="checkboxForAdmin">Установить одобренным:</label>
                 <input id="checkboxForAdmin"
                        type="checkbox"

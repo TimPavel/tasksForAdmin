@@ -1,5 +1,9 @@
 <?php
-session_start();
+if(session_id() == '') {
+    session_start();
+}
+
+
 ?>
 
 <h1>Hello <?= $_SESSION['login'] ?></h1>
